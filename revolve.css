@@ -1,0 +1,28 @@
+body {
+    background: #adc8fa;
+    display: flex;
+    justify-content: center;
+    }
+  
+  #letter-container {
+    width: 150vh;
+    display: grid;
+    place-items: center;
+    grid-template-areas:
+      "a1 . ."
+      ". a2 ."
+      ". . a3";
+  }
+  
+  #letter1 {
+    grid-area: a1;
+  }
+  
+  #letter2 {
+    grid-area: a2;
+  }
+  
+  #letter3 {
+    grid-area: a3;
+  }
+  
